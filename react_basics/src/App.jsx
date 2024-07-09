@@ -5,6 +5,8 @@ import './App.css'
 import HolaMundo from './Componentes/HolaMundo'
 import AdiosMundo from './Componentes/HolaMundo'
 
+const [count, setCount] = useState(0)
+
 function App() {
   const user = {
     nombre: "ML",
