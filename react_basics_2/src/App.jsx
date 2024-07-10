@@ -7,13 +7,13 @@ import AdiosMundo from './Componentes/AdiosMundo'
 
 function App() {
   const user = {
-  
+  nombre : "ML",
   edad : 39,
   color: "verde"
   }
 
-const saludarFn = name => {
-  alert("Hola, " + name)
+const saludarFn = (nombre, edad, color) => {
+  alert(`Hola ${nombre}, tienes ${edad} años y tu color es ${color}.`)
 }
 
   return (
